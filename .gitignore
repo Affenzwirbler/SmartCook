@@ -1,0 +1,16 @@
+from tkinter import *
+
+root = Tk()
+
+bg = PhotoImage(file="./img/kitchen.gif")
+
+explanation = "Willkommen in der Küche der Zukunft!"
+
+w = Label(root,
+		  compound = CENTER,
+		  text = explanation,
+		  fg = "white",
+		  font = "Heathergreen 60 italic",
+		  image=bg).pack(side="right")
+
+root.mainloop()
